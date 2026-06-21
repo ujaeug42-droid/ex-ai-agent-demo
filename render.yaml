@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: ex-ai-agent-pro
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
