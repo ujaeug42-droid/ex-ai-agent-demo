@@ -1,0 +1,13 @@
+{
+  "name": "ex-ai-agent-pro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WEB DXF exhibition visitor behavior analysis heatmap and EX_AI Agent PRO (Claude AI)",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "health": "node -e \"fetch('http://127.0.0.1:8765/api/health').then(r=>r.json()).then(console.log)\""
+  }
+}

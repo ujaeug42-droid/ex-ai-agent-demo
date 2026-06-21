@@ -1,0 +1,9 @@
+node_modules/
+data/
+*.log
+.env
+.env.local
+API_KEY.txt
+api-key.txt
+test-museum.dxf
+_bundle_test.html
